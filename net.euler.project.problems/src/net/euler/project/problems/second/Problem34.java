@@ -26,15 +26,16 @@ public class Problem34 {
 
     public static long getDigitFactorial(int number){
         long factorial=0;
-        String s=number+"";
-        for(int i=0;i<s.length();i++){
-            factorial+=getFactorial(Integer.parseInt(s.charAt(i)+""));
+        long i=number;
+        while(i>0){
+            factorial+=getFactorial(i%10);
+            i/=10;
         }
         return factorial;
     }
 
 
-    private static long getFactorial(int number){
+    private static long getFactorial(long number){
         long factorial=1;
         for(int i=1;i<=number;i++){
             factorial*=i;

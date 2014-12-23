@@ -28,9 +28,10 @@ public class Problem30 {
 
     private static long getFifthDigitPows(long number){
         long digitPow=0;
-        String s=number+"";
-        for(int i=0;i<s.length();i++){
-            digitPow+=Math.pow(Integer.parseInt(s.charAt(i)+""),5);
+        long i=number;
+        while(i>0){
+            digitPow+=Math.pow(i%10,5);
+            i/=10;
         }
         return digitPow;
     }
