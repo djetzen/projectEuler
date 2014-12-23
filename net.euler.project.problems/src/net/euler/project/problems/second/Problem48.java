@@ -1,4 +1,4 @@
-package net.euler.project.problems.secondPage;
+package net.euler.project.problems.second;
 
 /**
  * Created by jetzen on 23.12.14.

@@ -1,4 +1,4 @@
-package net.euler.project.problems.firstPage;
+package net.euler.project.problems.first;
 
 /**
  * Created by jetzen on 22.12.14.
