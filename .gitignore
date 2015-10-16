@@ -2,3 +2,5 @@
 /out
 /xtend-gen
 /.idea
+net.euler.project.problems/out
+net.euler.project.problems/.idea
